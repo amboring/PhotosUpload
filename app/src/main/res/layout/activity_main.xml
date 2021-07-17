@@ -1,0 +1,46 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp"
+        android:weightSum="10"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <Button android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:text="Login"/>
+
+
+        <Button android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:text="Register"/>
+        <Button android:id="@+id/button_view_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:text="ViewModel"
+            />
+        <Button android:id="@+id/button_firebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:text="Firebase"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
