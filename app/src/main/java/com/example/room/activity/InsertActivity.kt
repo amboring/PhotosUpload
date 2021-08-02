@@ -83,7 +83,7 @@ class InsertActivity : AppCompatActivity() {
             override fun onPermissionsChecked(report: MultiplePermissionsReport?) {
                 //check if all granted
                 if(report!!.areAllPermissionsGranted()){
-                    var intent= Intent(Intent.ACTION_PICK, MediaStore.Audio.Media.EXTERNAL_CONTENT_URI)
+                    var intent= Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
                     startActivityForResult(intent,REQUEST_GALLERY_IMAGE)
                     Toast.makeText(applicationContext,"all permissions granted", Toast.LENGTH_SHORT).show()
                 }
